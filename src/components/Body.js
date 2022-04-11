@@ -2,7 +2,9 @@ import React from 'react'
 
 const Body = () => {
   return (
-    <div></div>
+    <div class="flex flex-col ">
+      Some body
+    </div>
   )
 }
 
