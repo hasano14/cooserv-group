@@ -9,10 +9,10 @@ const Header = () => {
           <p class="items-center flex flex-col text-md text-justify m-2 md:px-20 lg:px-28 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <div class="flex flex-col md:flex-row items-center place-content-center">
-            <button class="rounded-md border-2 bg-white px-4 py-2 mx-4 my-1">
+            <button class="rounded-md bg-white px-4 py-2 mx-4 my-1 hover:text-white hover:bg-primary transition-all">
               Contact Us Now1
             </button>
-            <button class="rounded-md border-2 bg-white px-4 py-2 mx-4 my-1">
+            <button class="rounded-md bg-white px-4 py-2 mx-4 my-1 hover:text-white hover:bg-primary transition-all">
               Contact Us Now2
             </button>
           </div>
@@ -25,7 +25,7 @@ const Header = () => {
 
 const HeaderTitle = (props) => {
   return(
-    <span class="items-center text-center text-white flex flex-col text-7xl py-5 md:py-7"> {props.words} </span>
+    <span class="items-center text-center text-white flex flex-col text-5xl md:text-7xl py-5 md:py-7"> {props.words} </span>
   )
 }
 
