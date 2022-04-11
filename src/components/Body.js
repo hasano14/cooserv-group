@@ -1,9 +1,10 @@
 import React from 'react'
+import Aboutus from './aboutus/aboutus'
 
 const Body = () => {
   return (
     <div class="flex flex-col ">
-      Some body
+      <Aboutus />
     </div>
   )
 }

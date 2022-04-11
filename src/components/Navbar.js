@@ -23,7 +23,7 @@ class Navbar extends React.Component{
                         <span class="text-2xl justify-center items-center">Cooserv Group</span>
                     </a>
                     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                        <a href='/' class="mx-4 text-lg md:mr-6 text-primary md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Home</a>
+                        <a href='/' class="mx-4 text-lg md:mr-6 text-primary md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all ">Home</a>
                         <a href='/' class="mx-4 text-lg md:mr-6 text-primary md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">About</a>
                         <a href='/' class="mx-4 text-lg md:mr-6 text-primary md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Contact</a>
                     </nav>
