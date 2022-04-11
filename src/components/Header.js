@@ -3,11 +3,18 @@ import header from '../images/header.jpg'
 
 const Header = () => {
   return (
-    <div>
-        <span class="text-white flex flex-col text-2xl inset-x-10 align-middle w-full">Testing</span>
-        <img src={header} alt="Header" class="opacity-20">
-        </img>
+    <div class="h-screen w-full">
+      <div class="bg-fixed p-15 w-full h-full bg-cover header-image">
+        <HeaderTitle />
+      </div>  
     </div>
+    
+  )
+}
+
+const HeaderTitle = () => {
+  return(
+    <span class="items-center title-font dark:text-primary text-white flex flex-col text-5xl md:text-7xl lg:text-8xl pt-7 md:pt-10">Cooserv Group</span>
   )
 }
 

@@ -4,3 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
+.header-image {
+    background-image: url('images/header.jpg');
+    object-fit: none;
+}
+
