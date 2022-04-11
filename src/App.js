@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div class="bg-primary">
+    <div class="bg-backgroundColor">
         <Navbar />
         <Header />
         <Body />
