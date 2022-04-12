@@ -17,7 +17,7 @@ class Navbar extends React.Component{
 
     render() {
         return (
-            <header class="w-full md:p-2 text-white body-font bg-transparent bg-textColor ">
+            <header class="w-full pt-2 md:mx-3 md:p-2 text-white body-font bg-transparent bg-white md:fill-transparent ">
                 <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center ">
                     <a href='/' class="flex flex-wrap title-font font-medium items-center justify-center text-primary mb-6 md:mb-0 hover:text-smokyblue hover:font-normal transition-all">
                         <span class="text-2xl justify-center items-center">Cooserv Group</span>
