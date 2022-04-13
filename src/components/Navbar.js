@@ -13,7 +13,7 @@ const Navbar = () => {
                 </a>
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <a href='/' class="mx-4 text-lg md:mr-4 text-primary dark:text-backgroundColor md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all ">Home</a>
-                    <a href='/' class="mx-4 text-lg md:mr-4 text-primary dark:text-backgroundColor md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">About</a>
+                    <a href='/' class="mx-4 text-lg md:mr-4 text-primary dark:text-backgroundColor md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Services</a>
                     <a href='/' class="mx-4 text-lg text-primary dark:text-backgroundColor md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Contact</a>
                     <button class="group rounded-md border-2 border-primary dark:border-backgroundColor hover:border-secondary items-center transition-all" value="light">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black dark:text-backgroundColor cursor-pointer group-hover:text-secondary transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
