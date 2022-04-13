@@ -22,7 +22,7 @@ module.exports = {
         black: '#000',
         backgroundLight: '#f1faee',
         text1Light: '#011627',
-        text2Light: '#7a7f79',
+        text2Light: '#484b47',
         buttonColor: '#a8dadc',
         backgroundDark: '#011627',
         text1Dark: '#a4aaa2',
