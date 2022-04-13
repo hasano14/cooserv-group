@@ -3,11 +3,11 @@ const Navbar = () => {
 
 
     return (
-        <header class="w-full px-5 py-4 text-white body-font bg-transparent bg-white md:fill-transparent ">
+        <header class="w-full px-5 py-4 body-font bg-inherit md:fill-transparent ">
             <div class="mx-auto flex flex-wrap lg:px-5 flex-col md:flex-row items-center ">
-                <a href='/' class="flex flex-wrap title-font font-semibold text-5xl items-center justify-center text-primary dark:text-backgroundColor mb-6 md:mb-0 hover:text-smokyblue hover:font-normal transition-all">
-                    <span class="text-2xl justify-center items-center">Cooserv Group</span>
-                </a>
+                <div class="flex flex-wrap title-font bg-inherit font-medium text-5xl items-center justify-center text-text1Light mb-6 md:mb-0">
+                    <span class="text-3xl justify-center items-center">Cooserv Group</span>
+                </div>
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <a href='/' class="mx-4 text-lg md:mr-4 text-primary dark:text-backgroundColor md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all ">Home</a>
                     <a href='/' class="mx-4 text-lg md:mr-4 text-primary dark:text-backgroundColor md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Services</a>
