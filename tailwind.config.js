@@ -20,6 +20,13 @@ module.exports = {
         smokyblue: '#7196a6',
         white: '#fff',
         black: '#000',
+        backgroundLight: '#f1faee',
+        text1Light: '#011627',
+        text2Light: '#325b96',
+        buttonColor: '#a8dadc',
+        backgroundDark: '#011627',
+        text1Dark: '#a4aaa2',
+        text2Dark: '#f1faee',
       },
       fontFamily: {
         sans: ['Outfit', 'sans-serif'],
