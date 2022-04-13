@@ -8,7 +8,7 @@ const Header = () => {
         <h1 class="items-center text-center font-bold text-6xl text-text1Light mt-6 md:mt-10 mb-5 2xl:text-8xl 2xl:mt-24">Cooserv Group</h1>
         <p class="mb-7 text-center text-xl text-text2Light">Cooserv Group Is Here</p>
         <button class="flex-row p-2 mb-5 border-2 rounded-md border-text1Light text-center text-xl w-fit fill-buttonColor hover:bg-buttonColor"> Contact Us Now </button>
-        <img class="rounded-md mt-2 max-w-3xl" src="https://dummyimage.com/2500x1350/000000/ffffff" alt="Landing"></img>
+        <img class="rounded-md mt-2 md:max-w-3xl" src="https://dummyimage.com/2500x1350/000000/ffffff" alt="Landing"></img>
       </div>
         
     </div>
