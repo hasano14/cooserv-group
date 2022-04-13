@@ -36,14 +36,14 @@ const ourservices = () => {
   ]
 
   return (
-    <div class="container flex flex-col w-full h-auto items-center mx-auto max-w-3xl">
+    <div class="container flex flex-col h-auto items-center w-5/6 2xl:w-full">
         <h1 class="text-text1Light dark:text-text1Dark my-5 text-center text-3xl md:text-5xl 2xl:text-7xl md:mt-10">Our Services</h1>
-        <div class="flex flex-col pt-2 md:pt-6 transition-all h-fit mx-5">
+        <div class="flex flex-col pt-2 md:pt-6 transition-all h-fit xl:max-w-7xl">
           {/* This will be a slideshow */}
-          <img src="https://dummyimage.com/2500x1350/000000/ffffff" class="rounded-md mt-2 md:max-w-3xl items-center" alt="Services Provided"></img>
+          <img src="https://dummyimage.com/2500x1350/000000/ffffff" class="rounded-md mt-2 xl:max-w-5xl 2xl:max-w-7xl items-center" alt="Services Provided"></img>
           <p class="mt-2 text-text2Light dark:text-text2Dark font-medium text-lg text-justify mx-auto subpixel-antialiased">Cooserv is a group of companies that doing professional works and services in Malaysia. We work with clients from both the private and public sectors globally to identify their competitive advantage, supplying resources, address their challenges, managing projects and coordination. Our boutique relationships, customized and actionable insights and an entrepreneurial spirit approach ensure that our clients achieve highest-value opportunities, build more capable organizations and secure good and sustainable results. We seek to enhance the quality of life for all our stakeholders, our clients, our team and society. Cooserv is the consultancy that will raise up your business! </p>      
         </div>
-        <div class="pt-5 grid h-auto grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-1 md:gap-3 transition-all mx-5">
+        <div class="pt-5 grid h-auto grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-1 md:gap-3 transition-all mx-5 md:mx-0">
             {/* This will be a grid of cards */}
             {
               servicesName.map(service => (
