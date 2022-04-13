@@ -1,6 +1,3 @@
-import { render } from '@testing-library/react';
-import React from 'react'
-import '../index.css'
 
 const Navbar = () => {
 
@@ -8,7 +5,7 @@ const Navbar = () => {
     return (
         <header class="w-full px-5 py-4 text-white body-font bg-transparent bg-white md:fill-transparent ">
             <div class="mx-auto flex flex-wrap lg:px-5 flex-col md:flex-row items-center ">
-                <a href='/' class="flex flex-wrap title-font font-medium items-center justify-center text-primary dark:text-backgroundColor mb-6 md:mb-0 hover:text-smokyblue hover:font-normal transition-all">
+                <a href='/' class="flex flex-wrap title-font font-semibold text-5xl items-center justify-center text-primary dark:text-backgroundColor mb-6 md:mb-0 hover:text-smokyblue hover:font-normal transition-all">
                     <span class="text-2xl justify-center items-center">Cooserv Group</span>
                 </a>
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
