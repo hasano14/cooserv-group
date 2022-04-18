@@ -4,8 +4,13 @@ import './index.css';
 
 import Navbar from './components/navigationcontent/Navbar'
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Homepage from './components/Homepage'
 import Footer from './components/footercontent/Footer'
+=======
+import Body from './components/Body'
+import Footer from './components/Footer'
+>>>>>>> parent of 202c5bf (Moved folders for new rooms)
 =======
 import Body from './components/Body'
 import Footer from './components/Footer'
