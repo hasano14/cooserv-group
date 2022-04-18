@@ -1,22 +1,5 @@
 import React from 'react'
 import ThemeToggle from './ThemeToggle'
-<<<<<<< HEAD
-import '../../index.css'
-
-const Navbar = () => {
-    return (
-        <header className="w-full px-5 py-4 body-font bg-inherit md:fill-transparent ">
-            <div className="mx-auto flex flex-wrap lg:px-5 flex-col md:flex-row items-center ">
-                <div className="flex flex-wrap title-font bg-inherit font-medium text-5xl items-center justify-center text-text1Light mb-6 md:mb-0">
-                    <span className="text-3xl justify-center items-center text-primary dark:text-text1Dark">Cooserv Group</span>
-                </div>
-                <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                    <a href='/' className="mx-4 text-lg md:mr-4 text-primary dark:text-text2Dark md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all ">Home</a>
-                    <a href='/' className="mx-4 text-lg text-primary dark:text-text2Dark md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Our Teams</a>
-                    <a href='/' className="mx-4 text-lg md:mr-4 text-primary dark:text-text2Dark md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Services</a>
-                    <a href='/' className="mx-4 text-lg text-primary dark:text-text2Dark md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Contact</a>
-                    <ThemeToggle />
-=======
 
 const Navbar = () => {
     return (
@@ -36,14 +19,11 @@ const Navbar = () => {
                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                         </svg> 
                     </button> */}
->>>>>>> parent of 202c5bf (Moved folders for new rooms)
                 </nav>
             </div>
         </header>
     )
 }
-<<<<<<< HEAD
-=======
 
 // class Navbar extends React.Component{
 //     componentDidMount(){
@@ -83,5 +63,4 @@ const Navbar = () => {
 //     }
 // }
 
->>>>>>> parent of 202c5bf (Moved folders for new rooms)
 export default Navbar
