@@ -47,11 +47,11 @@ const ourservices = () => {
             {/* This will be a grid of cards */}
             {
               servicesName.map(service => (
-                <div class="flex flex-row xl:flex-col border-2 border-black p-3 rounded-xl">
-                  <img src={service.image} alt="services" class="max-h-40 md:max-h-56 xl:max-h-fit"></img>
+                <div class="flex flex-row xl:flex-col border-2 border-black dark:border-white p-3 rounded-xl">
+                  <img src={service.image} alt="services" class="rounded-sm max-h-40 md:max-h-56 xl:max-h-fit"></img>
                   <div class="flex-col justify-items-center">
-                    <p class="text-primary text-xl p-2">{service.name}</p>
-                    <p class="text-primary text-base p-2">{service.description}</p>
+                    <p class="text-primary dark:text-text1Dark text-xl p-2">{service.name}</p>
+                    <p class="text-primary dark:text-text2Dark text-base p-2">{service.description}</p>
                   </div>
                 </div>
               ))
