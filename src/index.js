@@ -4,7 +4,6 @@ import 'flowbite';
 
 import App from './App';
 import {ThemeProvider} from './components/navigationcontent/ThemeContext';
-import ThemeToggle from './components/navigationcontent/ThemeToggle';
 
 ReactDOM.render(
     <React.StrictMode>
