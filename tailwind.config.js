@@ -1,14 +1,10 @@
-const tailwindcss = require('tailwindcss')
 const colors = require('tailwindcss/colors')
-
+//Made changes into the terminal and reinstall all npm to get the changes to work
 module.exports = {
   darkMode: 'class',
   mode: 'jit',
   content: [
     "./src/**/*.{js,jsx,ts,tsx,css}",
-    "./src/**/*.{js,jsx,ts,tsx,css}",
-    "./src/**/**/*.{js,jsx,ts,tsx}",
-    "./src/**/**/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     container: {
@@ -37,8 +33,6 @@ module.exports = {
     },
   },
   plugins: [
-    tailwindcss('./tailwind.js'),
-    require('autoprefixer'),
     require('flowbite/plugin')
   ]
 }
