@@ -1,15 +1,16 @@
 import React from 'react'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './index.css';
 
 import Navbar from './components/navigationcontent/Navbar'
-import Body from './components/Homepage/Homepage'
+import Homepage from './components/Homepage'
 import Footer from './components/footercontent/Footer'
 
 const App = () => {
   return (
-    <div class="flex flex-col flex-auto bg-backgroundLight dark:bg-backgroundDark">
+    <div className="flex flex-col flex-auto bg-backgroundLight dark:bg-backgroundDark">
         <Navbar />
-        <Body />
+        <Homepage />
         <Footer />
     </div>
   )
