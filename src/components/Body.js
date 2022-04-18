@@ -5,7 +5,13 @@ import OurServices from './bodycontent/ourservices'
 
 const Body = () => {
   return (
-    <body class="grid grid-flow-row grid-rows-auto mx-2 md:mx-5 lg:mx-10 xl:mx-16 2xl:mx-32">
+    // <body class="grid grid-flow-row grid-rows-auto mx-2 md:mx-5 lg:mx-10 xl:mx-16 2xl:mx-32">
+    //   <Aboutus />
+    //   <OurServices />
+    //   <OurTeam />
+    // </body>
+
+    <body class="grid grid-flow-row grid-rows-auto mx-2 md:mx-5 lg:mx-10 xl:mx-16 2xl:mx-32 items-center">
       <Aboutus />
       <OurServices />
       <OurTeam />
