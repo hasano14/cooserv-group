@@ -1,9 +1,9 @@
 import React from 'react'
 import './index.css';
 
-import Navbar from './components/navigationcontent/Navbar'
-import Body from './components/Body'
-import Footer from './components/Footer'
+import Navbar from './components/Homepage/navigationcontent/Navbar'
+import Body from './components/Homepage/Homepage'
+import Footer from './components/footercontent/Footer'
 
 const App = () => {
   return (
