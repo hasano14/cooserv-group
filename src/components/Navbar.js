@@ -1,7 +1,7 @@
-import React from 'react'
-import ThemeToggle from './ThemeToggle'
 
 const Navbar = () => {
+
+
     return (
         <header class="w-full px-5 py-4 body-font bg-inherit md:fill-transparent ">
             <div class="mx-auto flex flex-wrap lg:px-5 flex-col md:flex-row items-center ">
@@ -9,15 +9,15 @@ const Navbar = () => {
                     <span class="text-3xl justify-center items-center text-primary dark:text-text1Dark">Cooserv Group</span>
                 </div>
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                    <a href='/' class="mx-4 text-lg md:mr-4 text-primary dark:text-text2Dark md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all ">Home</a>
-                    <a href='/' class="mx-4 text-lg md:mr-4 text-primary dark:text-text2Dark md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Services</a>
-                    <a href='/' class="mx-4 text-lg text-primary dark:text-text2Dark md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Contact</a>
-                    <ThemeToggle />
-                    {/* <button class="group rounded-md border-2 border-primary dark:border-backgroundColor hover:border-secondary items-center transition-all" value="light">
+                    <a href='/' class="mx-4 text-lg md:mr-4 text-primary dark:text-backgroundColor md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all ">Home</a>
+                    <a href='/' class="mx-4 text-lg md:mr-4 text-primary dark:text-backgroundColor md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Services</a>
+                    <a href='/' class="mx-4 text-lg text-primary dark:text-backgroundColor md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Contact</a>
+                    <button class="group rounded-md border-2 border-primary dark:border-backgroundColor hover:border-secondary items-center transition-all" value="light">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black dark:text-backgroundColor cursor-pointer group-hover:text-secondary transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                         </svg> 
-                    </button> */}
+                    </button>
+                    
                 </nav>
             </div>
         </header>
