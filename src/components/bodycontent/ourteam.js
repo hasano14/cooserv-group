@@ -31,13 +31,12 @@ const ourteam = () => {
   return (
     <div class="container mx-auto w-5/6 mt-10">
       <div class="flex flex-col text-center w-full mb-10">
-        <h1 class="text-4xl text-text1Light dark:text-text1Dark pt-2 md:pt-6">Our Team</h1>
+        <h1 class="text-5xl text-text1Light dark:text-text1Dark">Our Team</h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-text2Dark">Some random thing about teams</p>
       </div>
-      <div class="flex flex-wrap -m-4">
+      <div class="flex flex-wrap">
           { 
             teamMembers.map(members => 
-            <div class="p-4 lg:w-1/2">
               <div class="h-full flex sm:flex-row flex-col items-center sm:justify-center text-center sm:text-left my-2">
                 <img alt="team" class="flex-shrink-0 rounded-md   w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={members.image} />
                 <div class="flex-grow sm:pl-8">
@@ -46,7 +45,6 @@ const ourteam = () => {
                    <p class="mb-4 dark:text-text2Dark">{members.description}</p>
                 </div>
               </div>
-            </div>
           )}
       </div>
     </div>

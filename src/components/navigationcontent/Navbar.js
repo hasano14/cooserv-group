@@ -10,7 +10,6 @@ const Navbar = () => {
                 </div>
                 <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <a href='/' class="mx-4 text-lg md:mr-4 text-primary dark:text-text2Dark md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all ">Home</a>
-                    <a href='/' class="mx-4 text-lg text-primary dark:text-text2Dark md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Our Teams</a>
                     <a href='/' class="mx-4 text-lg md:mr-4 text-primary dark:text-text2Dark md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Services</a>
                     <a href='/' class="mx-4 text-lg text-primary dark:text-text2Dark md:hover:text-secondary md:hover:underline hover:underline-offset-2 transition-all">Contact</a>
                     <ThemeToggle />
